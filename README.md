@@ -8,18 +8,35 @@
 - 导入导出：JSON 备份与分享、CSV（Excel）、ICS 日历、文本口令 + 摄像头扫码
 - 与原 WakeUp 课程表数据文件兼容，可无缝迁移
 
-## 下载（Windows）
+## 下载
 
 前往 [Releases](https://github.com/shopbimaster/CampuserDownload/releases/latest) 下载最新版安装包。
 
-当前版本直链：**[CAMPUSER-Setup-1.6.0.exe](https://github.com/shopbimaster/CampuserDownload/releases/download/v1.6.0/CAMPUSER-Setup-1.6.0.exe)**
+### Windows
+
+直链：**[CAMPUSER-Setup-2.0.0.exe](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.0.0/CAMPUSER-Setup-2.0.0.exe)**
 
 - 安装向导支持：自选安装位置、创建桌面快捷方式、开机自动启动
 - 安装包未做代码签名，首次运行如遇 SmartScreen 提示，选择「更多信息 → 仍要运行」即可
 - 纯本地应用，无自动更新；升级直接安装新版覆盖旧目录即可（数据保留），
   多个版本安装到不同目录时数据相互隔离、互不干扰
 
+### Android
+
+直链：**[CAMPUSER-2.0.0-android-arm64.apk](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.0.0/CAMPUSER-2.0.0-android-arm64.apk)**（arm64-v8a，近年主流安卓手机均为该架构）
+
+- 下载后直接安装；首次安装需在系统里允许「未知来源 / 安装未知应用」
+- 应用声明的 INTERNET 权限系内置浏览器内核本地通信所需，应用自身不做任何网络请求
+- 导出的课表文件通过系统分享面板发送，可分享到微信 / QQ 等任意应用
+
 ## 更新日志
+
+### v2.0.0（2026-10-13）
+
+- **新增**：Android 版本——课程表核心功能完整可用，数据仍完全本地存储
+- **修复**：Windows 安装向导中勾选「创建桌面快捷方式」后实际未创建的问题
+- **焕新**：应用图标全面更换为新版矢量图标，全场景圆角呈现，小尺寸场景亦保持清晰
+- **已知限制**：安卓版界面尚未针对小屏专门适配（平板 / 横屏体验较好），后续版本改进
 
 ### v1.6.0（2026-10-10）
 
