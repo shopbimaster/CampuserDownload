@@ -14,7 +14,7 @@
 
 ### Windows
 
-直链：**[CAMPUSER-Setup-2.0.0.exe](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.0.0/CAMPUSER-Setup-2.0.0.exe)**
+直链：**[CAMPUSER-Setup-2.1.0.exe](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.1.0/CAMPUSER-Setup-2.1.0.exe)**
 
 - 安装向导支持：自选安装位置、创建桌面快捷方式、开机自动启动
 - 安装包未做代码签名，首次运行如遇 SmartScreen 提示，选择「更多信息 → 仍要运行」即可
@@ -23,13 +23,22 @@
 
 ### Android
 
-直链：**[CAMPUSER-2.0.0-android-arm64.apk](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.0.0/CAMPUSER-2.0.0-android-arm64.apk)**（arm64-v8a，近年主流安卓手机均为该架构）
+直链：**[CAMPUSER-2.1.0-android-arm64.apk](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.1.0/CAMPUSER-2.1.0-android-arm64.apk)**（arm64-v8a，近年主流安卓手机均为该架构）
 
 - 下载后直接安装；首次安装需在系统里允许「未知来源 / 安装未知应用」
 - 应用声明的 INTERNET 权限系内置浏览器内核本地通信所需，应用自身不做任何网络请求
 - 导出的课表文件通过系统分享面板发送，可分享到微信 / QQ 等任意应用
 
 ## 更新日志
+
+### v2.1.0（2026-10-17）
+
+- **新增**：Android 端单点加课——点击课表空位出现粉色选中块，上下拖动调整节数，点按选中块即进入新建课程（时间已自动填好）
+- **新增**：格子文字颜色设置（自动 / 黑色 / 白色）
+- **新增**：「显示下周课程」——叠加显示下一周独有的课程（保留原色、半透明，透明度可调）
+- **新增**：导入课表文件时若外观 / 上课时间设置与当前课表不同，可一键沿用当前设置
+- **修复**：Android 端导入课表文件、深色模式状态栏图标颜色、Windows 桌面快捷方式图标
+- **改进**：手机端左右滑动切换周次全程跟手（两页并排过渡）；上课时间新增顺序校验；去除系统点击高亮、隐藏课表滚动条；安装默认外观调整（衬底 25% / 课程块 80% / 饱和度 80% / 格子高 54 / 圆角 6 / 边距 2.5% / 表头 15px）
 
 ### v2.0.0（2026-10-13）
 
