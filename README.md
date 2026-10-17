@@ -14,7 +14,7 @@
 
 ### Windows
 
-直链：**[CAMPUSER-Setup-2.1.0.exe](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.1.0/CAMPUSER-Setup-2.1.0.exe)**
+直链：**[CAMPUSER-Setup-2.1.1.exe](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.1.1/CAMPUSER-Setup-2.1.1.exe)**
 
 - 安装向导支持：自选安装位置、创建桌面快捷方式、开机自动启动
 - 安装包未做代码签名，首次运行如遇 SmartScreen 提示，选择「更多信息 → 仍要运行」即可
@@ -23,13 +23,20 @@
 
 ### Android
 
-直链：**[CAMPUSER-2.1.0-android-arm64.apk](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.1.0/CAMPUSER-2.1.0-android-arm64.apk)**（arm64-v8a，近年主流安卓手机均为该架构）
+直链：**[CAMPUSER-2.1.1-android-arm64.apk](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.1.1/CAMPUSER-2.1.1-android-arm64.apk)**（arm64-v8a，近年主流安卓手机均为该架构）
 
 - 下载后直接安装；首次安装需在系统里允许「未知来源 / 安装未知应用」
 - 应用声明的 INTERNET 权限系内置浏览器内核本地通信所需，应用自身不做任何网络请求
-- 导出的课表文件通过系统分享面板发送，可分享到微信 / QQ 等任意应用
+- 导出的课表文件通过系统「另存为」窗口保存到任意位置
 
 ## 更新日志
+
+### v2.1.1（2026-10-17）
+
+- **修复**：Android 端导出改为系统「另存为」窗口（此前点击保存后无响应）——保存成功提示保存到了哪里，失败给出详细报错信息
+- **改进**：单点加课交互细化——点已有课程仅查看详情；选中加课位置后再点其他位置先取消选中（下一次点击才重新选位）；选中块支持向上、向下双向拖动伸缩时段
+- **新增**：出厂默认时间表调整为每天 12 节、每节 50 分钟（上午 8–11、下午 2–5、晚上 6–9 点整开课），学期默认 20 周
+- **改进**：设置中把某节课上课时间调到晚于下课时间时，自动把下课时间对齐到上课时间（不再报错）
 
 ### v2.1.0（2026-10-17）
 
