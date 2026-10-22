@@ -14,7 +14,7 @@
 
 ### Windows
 
-直链：**[CAMPUSER-Setup-2.1.1.exe](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.1.1/CAMPUSER-Setup-2.1.1.exe)**
+直链：**[CAMPUSER-Setup-2.1.2.exe](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.1.2/CAMPUSER-Setup-2.1.2.exe)**
 
 - 安装向导支持：自选安装位置、创建桌面快捷方式、开机自动启动
 - 安装包未做代码签名，首次运行如遇 SmartScreen 提示，选择「更多信息 → 仍要运行」即可
@@ -23,13 +23,18 @@
 
 ### Android
 
-直链：**[CAMPUSER-2.1.1-android-arm64.apk](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.1.1/CAMPUSER-2.1.1-android-arm64.apk)**（arm64-v8a，近年主流安卓手机均为该架构）
+直链：**[CAMPUSER-2.1.2-android-arm64.apk](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.1.2/CAMPUSER-2.1.2-android-arm64.apk)**（arm64-v8a，近年主流安卓手机均为该架构）
 
 - 下载后直接安装；首次安装需在系统里允许「未知来源 / 安装未知应用」
 - 应用声明的 INTERNET 权限系内置浏览器内核本地通信所需，应用自身不做任何网络请求
 - 导出的课表文件通过系统「另存为」窗口保存到任意位置
 
 ## 更新日志
+
+### v2.1.2（2026-10-22）
+
+- **修复**：手机端点击已有课程打开详情后，关闭详情会在原处残留加课的粉色选中块——现在点课程只显示课程详情，关闭后不会出现加课块
+- **优化**：手机端左右滑动切换周次改为「三页预渲染」——静止时同时渲染当前周与左右相邻周，滑动即时跟手（消除滑动启动瞬间的渲染卡顿），滑动中途反方向拖动不再出现未渲染的空白页穿帮；松手落定后只保留新当前页并刷新相邻页
 
 ### v2.1.1（2026-10-17）
 
