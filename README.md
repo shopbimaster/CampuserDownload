@@ -5,7 +5,7 @@
 - 数据完全保存在本机，无网络请求、无广告
 - 多课表管理 / 课程多时间段 / 任意周次集合（单双周、不连续周次）
 - 冲突检测、深浅主题、格子外观自定义（不透明度 / 饱和度 / 圆角 / 边距）
-- 导入导出：JSON 备份与分享、CSV（Excel）、ICS 日历、文本口令 + 摄像头扫码
+- 导入导出：JSON 备份与分享、CSV（Excel）、ICS 日历
 - 与原 WakeUp 课程表数据文件兼容，可无缝迁移
 
 ## 下载
@@ -14,7 +14,7 @@
 
 ### Windows
 
-直链：**[CAMPUSER-Setup-2.1.2.exe](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.1.2/CAMPUSER-Setup-2.1.2.exe)**
+直链：**[CAMPUSER-Setup-2.2.0.exe](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.2.0/CAMPUSER-Setup-2.2.0.exe)**
 
 - 安装向导支持：自选安装位置、创建桌面快捷方式、开机自动启动
 - 安装包未做代码签名，首次运行如遇 SmartScreen 提示，选择「更多信息 → 仍要运行」即可
@@ -23,13 +23,18 @@
 
 ### Android
 
-直链：**[CAMPUSER-2.1.2-android-arm64.apk](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.1.2/CAMPUSER-2.1.2-android-arm64.apk)**（arm64-v8a，近年主流安卓手机均为该架构）
+直链：**[CAMPUSER-2.2.0-android-arm64.apk](https://github.com/shopbimaster/CampuserDownload/releases/download/v2.2.0/CAMPUSER-2.2.0-android-arm64.apk)**（arm64-v8a，近年主流安卓手机均为该架构）
 
 - 下载后直接安装；首次安装需在系统里允许「未知来源 / 安装未知应用」
 - 应用声明的 INTERNET 权限系内置浏览器内核本地通信所需，应用自身不做任何网络请求
 - 导出的课表文件通过系统「另存为」窗口保存到任意位置
 
 ## 更新日志
+
+### v2.2.0（2026-10-26）
+
+- **新增**：课程长按拖动调课——长按课程块进入拖动状态，拖到目标位置松手自动吸附到最近的整课程格，并弹出确认窗：取消 / 只调这一节课 / 调整所有同时间段的这门课
+- **新增**：整日调课——点击日期轴任意一天即可弹出「整日调课」入口；支持按日期或按周次，把某一天的全部课程整体调到另一天（起点自动填入点击的日期）
 
 ### v2.1.2（2026-10-22）
 
